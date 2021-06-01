@@ -1,0 +1,20 @@
+nav{
+    width: 100%;
+    background-color: white;
+}
+nav ul{
+    padding: 10px;
+}
+nav ul li{
+    display: inline-block;
+    padding: 10px;
+}
+nav ul li a{
+    padding: 10px;
+    color: black;
+}
+nav .logo img{
+    width: 168px;
+    position: relative;
+    top: 5px;
+}

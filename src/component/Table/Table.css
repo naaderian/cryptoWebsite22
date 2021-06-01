@@ -1,0 +1,19 @@
+.divTable {
+    width: 100%;
+    display: table;
+    border-spacing: 1px;
+    margin: 10px auto;
+}
+
+.divRow {
+    display: table-row;
+    width: 100%;
+}
+
+.divCell {
+    float: left;
+    /*fix for  buggy browsers*/
+    display: table-column;
+    padding: 10px;
+    background-color: white;
+}
